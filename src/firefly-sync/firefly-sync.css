@@ -1,0 +1,41 @@
+.firefly-sync {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.firefly-sync > .inputs > #flySize {
+    width: 2.5em;
+}
+
+.firefly-sync > .f {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firefly-sync > .f > .v {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    background-color: white;
+}
+
+.firefly-sync > .f > .c {
+    position: absolute;
+    width: 1px;
+    left: 0;
+    bottom: 0;
+    background-color: blue;
+}
+
+.firefly-sync > .debug {
+    color: white;
+    opacity: 0.05;
+}
