@@ -11,7 +11,7 @@ const defaultOptions = {
         density: 0.00027,
     },
     excitement: {
-        radius: 150,
+        radius: 100,
         threshold: 1,
         charge_rate: 0.005,
         drain_rate: 0.025,
