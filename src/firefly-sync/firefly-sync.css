@@ -12,19 +12,13 @@
 
 .firefly-sync > .f {
     position: absolute;
+    transform: translate(-50%, 50%);
     width: 5px;
     height: 5px;
     background-color: greenyellow;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.firefly-sync > .f > .v {
-    position: absolute;
-    height: 1px;
-    width: 1px;
-    background-color: white;
 }
 
 .firefly-sync > .f > .c {
@@ -37,5 +31,5 @@
 
 .firefly-sync > .debug {
     color: white;
-    opacity: 0.05;
+    opacity: 0.25;
 }

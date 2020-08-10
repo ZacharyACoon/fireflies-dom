@@ -36,7 +36,7 @@ Firefly.defaultProps = {
 function Firefly(props) {
     const {f} = props;
     return <div className={"f"} style={{left: f[0], bottom: f[1], backgroundColor: `rgba(162, 255, 0, ${0.1+f[3]}`, height: props.size, width: props.size}}>
-        { props.debug && <div className={"c"} style={{height: `calc(12px * ${f[2]})`}} />}
+        { props.debug && <div className={"c"} style={{height: `calc(max(10px, 100%) * ${f[2]})`}} />}
     </div>
 }
 
